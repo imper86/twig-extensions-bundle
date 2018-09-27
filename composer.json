@@ -1,0 +1,23 @@
+{
+    "name": "imper86/twig-extensions-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrian Szuszkiewicz",
+            "email": "me@imper.info"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/http-kernel": "^4.1",
+        "symfony/dependency-injection": "^4.1",
+        "symfony/config": "^4.1",
+        "twig/extensions": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Imper86\\TwigExtensionsBundle\\": "src/Imper86/TwigExtensionsBundle/"
+        }
+    }
+}
