@@ -5,7 +5,7 @@
         http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="imper86.twig_filters_extension" class="Imper86\TwigExtensionsBundle\FiltersExtension" public="true">
+        <service id="imper86.twig_filters_extension" class="Imper86\TwigExtensionsBundle\Twig\FiltersExtension" public="true">
             <tag name="twig.extension" />
         </service>
     </services>
